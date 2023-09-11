@@ -1,0 +1,60 @@
+/* CSS (style.css) */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightblue;
+}
+
+#Rock
+{
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+
+#Paper
+{
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+
+#Scissors
+{
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.results {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    line-height: 1.5;
+}
